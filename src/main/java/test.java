@@ -1,11 +1,5 @@
-import utils.FileReader;
-import utils.Util;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Properties;
+import com.wso2telco.deployment.Constants;
+import com.wso2telco.deployment.utils.Util;
 
 /**
  * Created by Azham on 22/04/2017.
@@ -16,7 +10,10 @@ public class test {
 
         //FileReader.readPropertyFile("AM");
 
-        Util.unzip("test","testFolder");
+       // Util.unzip("test","testFolder");
+
+
+        //Util.setDeplymentType("",Constants.DEPLOYMENT_TYPE_HUB);
     }
 
 }

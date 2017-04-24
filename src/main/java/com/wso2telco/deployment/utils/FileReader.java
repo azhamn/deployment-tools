@@ -1,4 +1,4 @@
-package utils;
+package com.wso2telco.deployment.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
